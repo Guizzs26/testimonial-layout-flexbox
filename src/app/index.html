@@ -3,46 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Testimonial Grid Challenge</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-    <div id="main-container">
-      <div id="left-container">
-        <div id="top">
-          <div id="testimonial-1" class="testimonial-item">
+    <div class="testimonial-main-container">
+      <div class="testimonial-column-left">
+        <div class="testimonial-row-top">
+          <div class="testimonial-card" id="testimonial-1">
             <img
               src="/images/bg-pattern-quotation.svg"
               alt="quotation"
-              id="quote"
+              class="quote"
             />
-            <div class="header">
+            <div class="testimonial-header">
               <img
                 src="/images/image-daniel.jpg"
                 alt="Daniel profile picture"
+                class="purple-border-image"
               />
               <div class="header-text">
                 <p class="name">Daniel Clifford</p>
                 <p>Verified Graduate</p>
               </div>
             </div>
-
             <h4>
               I received a job offer mid-course, and the subjects I learned were
               current, if not more so, in the company I joined. I honestly feel
@@ -58,9 +54,8 @@
               careers, working as a Software Engineer at a VR startup. ”
             </p>
           </div>
-
-          <div id="testimonial-2" class="testimonial-item">
-            <div class="header">
+          <div class="testimonial-card" id="testimonial-2">
+            <div class="testimonial-header">
               <img
                 src="/images/image-jonathan.jpg"
                 alt="Jonathan profile picture"
@@ -70,7 +65,6 @@
                 <p>Verified Graduate</p>
               </div>
             </div>
-
             <h4>The team was very supportive and kept me motivated</h4>
             <p>
               “ I started as a total newbie with virtually no coding skills. I
@@ -79,10 +73,9 @@
             </p>
           </div>
         </div>
-
-        <div id="bottom">
-          <div id="testimonial-3" class="testimonial-item">
-            <div class="header">
+        <div class="testimonial-row-bottom">
+          <div class="testimonial-card" id="testimonial-3">
+            <div class="testimonial-header">
               <img
                 src="/images/image-jeanette.jpg"
                 alt="Jeanette profile picture"
@@ -92,7 +85,6 @@
                 <p>Verified Graduate</p>
               </div>
             </div>
-
             <h4>An overall wonderful and rewarding experience</h4>
             <p>
               “ Thank you for the wonderful experience! I now have a job I
@@ -100,19 +92,18 @@
               ”
             </p>
           </div>
-
-          <div id="testimonial-4" class="testimonial-item">
-            <div class="header">
+          <div class="testimonial-card" id="testimonial-4">
+            <div class="testimonial-header">
               <img
                 src="/images/image-patrick.jpg"
                 alt="Patrick profile picture"
+                class="purple-border-image"
               />
               <div class="header-text">
                 <p class="name">Patrick Abrams</p>
                 <p>Verified Graduate</p>
               </div>
             </div>
-
             <h4>
               Awesome teaching support from TAs who did the bootcamp themselves.
               Getting guidance from them and learning from their experiences was
@@ -129,16 +120,14 @@
           </div>
         </div>
       </div>
-
-      <div id="testimonial-5" class="testimonial-item">
-        <div class="header">
+      <div class="testimonial-card" id="testimonial-5">
+        <div class="testimonial-header">
           <img src="/images/image-kira.jpg" alt="Kira profile picture" />
           <div class="header-text">
             <p class="name">Kira Whittle</p>
             <p>Verified Graduate</p>
           </div>
         </div>
-
         <h4>Such a life-changing experience. Highly recommended!</h4>
         <p>
           “ Before joining the bootcamp, I’ve never written a line of code. I
@@ -149,7 +138,7 @@
           hands-on and I never had to wait long for assistance. The agile team
           project, in particular, was outstanding. It took my learning to the
           next level in a way that no tutorial could ever have. In fact, I’ve
-          often referred to it during interviews as an example of my developent
+          often referred to it during interviews as an example of my development
           experience. It certainly helped me land a job as a full-stack
           developer after receiving multiple offers. 100% recommend! ”
         </p>

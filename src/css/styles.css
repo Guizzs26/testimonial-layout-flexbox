@@ -25,13 +25,49 @@ body {
   background-color: var(--color-neutral-background);
 }
 
-.main-container {
+.testimonial-main-container {
   padding: 2% 5%;
 }
 
-.testimonial-item {
+.testimonial-card {
+  font-size: 13px;
   margin-bottom: 20px;
   padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.testimonial-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-card p {
+  opacity: 70%;
+}
+
+.testimonial-header,
+.name {
+  font-size: 1rem;
+  opacity: 100%;
+}
+
+.quote {
+  position: absolute;
+  top: 0px; /* Ajuste conforme necessário */
+  right: 150px; /* Ajuste conforme necessário */
+  height: 150px;
+  z-index: 1;
+}
+
+#testimonial-1,
+#testimonial-2,
+#testimonial-4 {
+  color: var(--color-white);
 }
 
 #testimonial-1 {
@@ -51,32 +87,52 @@ body {
   background-color: var(--color-dark);
 }
 
+/*  */
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.purple-border-image {
+  border: 3px solid #8d54e9;
+}
+
 /* Desktop */
 @media (min-width: 576px) {
-  .main-container {
-    max-width: 1440px;
+  .testimonial-main-container,
+  .testimonial-column-left,
+  .testimonial-row-top,
+  .testimonial-row-bottom {
     display: flex;
-    margin: 0 auto;
   }
 
-  .left-container {
-    display: flex;
+  .testimonial-main-container {
+    max-width: 1440px;
+    margin: 120px auto;
+  }
+
+  .testimonial-column-left {
     flex-direction: column;
     flex-basis: 80%;
   }
 
-  .left-container .testimonial-item {
+  .testimonial-column-left .testimonial-card {
     margin-right: 20px;
   }
 
-  .top {
-    display: flex;
-    flex-basis: 58%;
+  .testimonial-row-top {
+    flex-basis: 60%;
   }
 
-  .bottom {
-    display: flex;
-    flex-basis: 42%;
+  .testimonial-row-bottom {
+    flex-basis: 40%;
   }
 
   #testimonial-5 {
@@ -85,20 +141,20 @@ body {
   }
 
   #testimonial-1 {
-    flex-basis: 65%;
+    flex-basis: 70%;
   }
 
   #testimonial-2 {
-    flex-basis: 35%;
+    flex-basis: 30%;
   }
 
   #testimonial-3 {
-    flex-basis: 35%;
+    flex-basis: 30%;
     margin-bottom: 0;
   }
 
   #testimonial-4 {
-    flex-basis: 65%;
+    flex-basis: 70%;
     margin-bottom: 0;
   }
 }
