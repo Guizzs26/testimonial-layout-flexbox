@@ -17,37 +17,43 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Overview
 
-### The challenge
+### The challenge 🔥
 
-Users should be able to:
+🎯 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.jpg)
 
 ## My process
 
-### Built with
+### Built with ⚒️
 
 - Semantic HTML5 markup
 - CSS
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
+### What I learned 🧠
 
-The main objective of this project was to build a “complex” layout using only CSS Flexbox, even though the challenge was to do it using CSS Grid
+🚀 The main objective of this project was to build a “complex” layout using only CSS Flexbox, even though the challenge was to do it using CSS Grid
+
+😍 But with this project I also learned a bit and put responsive design into practice
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox) - This was my main source of knowledge for building this project
+- [Flexbox Docs](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox) - This was my main source of knowledge for building this project
 
-## Authors
+## Author
 
 - [@Guizzs26](https://github.com/Guizzs26)
 
 Made with ❤️ by Guilherme, 👋🏽 get in touch !
+
+<h4> 
+🚧  🚀 This project is finished 🚀 🚧
+</h4>
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilherme-alexandre-lescano-teixeira-17a4a12a3/)
